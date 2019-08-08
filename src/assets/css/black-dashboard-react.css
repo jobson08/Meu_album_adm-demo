@@ -7385,7 +7385,7 @@ a.text-darker:hover, a.text-darker:focus {
       display: inline-block;
       font: normal normal normal 1em/1 'Nucleo';
       vertical-align: middle;
-      speak: none;
+     /* speak: none;*/
       text-transform: none;
       -webkit-font-smoothing: antialiased;
       font-size: 1rem;
@@ -8586,7 +8586,7 @@ fieldset[disabled]
     padding: 0; }
   .footer .nav {
     display: inline-block;
-    float: left;
+    /*float: left;*/
     margin-bottom: 0;
     padding-left: 30px;
     list-style: none; }
@@ -12466,7 +12466,7 @@ textarea.form-control {
   .card-user .avatar {
     width: 124px;
     height: 124px;
-    border: 5px solid #2b3553;
+    border: 2px solid #2b3553;
     border-bottom-color: transparent;
     background-color: transparent;
     position: relative; }
@@ -12513,7 +12513,7 @@ textarea.form-control {
     /*.inner{
       overflow: hidden;
     }*/
-
+  
     .iner img{
       transition: all 1.5s ease;
     }
@@ -12521,3 +12521,25 @@ textarea.form-control {
     .inner:hover img{
       transform: scale(1.5);
     }
+
+    .fotoBar{
+      margin:20px ;
+    }
+    .fotoBar .Titulo-foto {
+      color: #fff;
+      font-size:20px;
+      text-align: center;
+    }
+   .fotoBar .avatar{   
+      border: 3px solid #7f9aeb;
+      position: relative; 
+      
+    }
+    .fotoBar .title{
+      text-align: center;
+    }
+.card-add-imag{
+  padding: 100px;
+  margin-left: 0px;
+  margin-right:0px;
+}

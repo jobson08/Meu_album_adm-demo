@@ -2,6 +2,7 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
+//import FixedPlugin from "./FixedPlugin";
 
 // reactstrap components
 import {
@@ -180,7 +181,7 @@ class AdminNavbar extends React.Component {
                   </DropdownToggle>
                   <DropdownMenu className="dropdown-navbar" tag="ul">
                     <NavLink tag="li">
-                      <DropdownItem className="nav-item">Profile</DropdownItem>
+                      <DropdownItem className="nav-item">Adicionar Imagens</DropdownItem>
                     </NavLink>
                     <NavLink tag="li">
                       <DropdownItem className="nav-item">Settings</DropdownItem>
@@ -189,10 +190,15 @@ class AdminNavbar extends React.Component {
                     <NavLink tag="li">
                       <DropdownItem className="nav-item">Log out</DropdownItem>
                     </NavLink>
+                    
                   </DropdownMenu>
                 </UncontrolledDropdown>
                 <li className="separator d-lg-none" />
               </Nav>
+             {/* <FixedPlugin
+                bgColor={this.state.backgroundColor}
+                handleBgClick={this.handleBgClick}
+             />*/}
             </Collapse>
           </Container>
         </Navbar>

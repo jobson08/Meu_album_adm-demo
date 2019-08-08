@@ -7,7 +7,7 @@ import { PropTypes } from "prop-types";
 import PerfectScrollbar from "perfect-scrollbar";
 
 // reactstrap components
-import { Nav, Card,} from "reactstrap";
+import { Nav,} from "reactstrap";
 
 var ps;
 
@@ -118,20 +118,33 @@ class Sidebar extends React.Component {
                   </NavLink>
                 </li>                
               );
-            })}
-              <Card className="card-user">                
-                  <div className="author">              
-                    <a href="#pablo" onClick={e => e.preventDefault()}>
-                      <img
-                        alt="..."
-                        className="avatar"
+            })}          
+                    
+                  <div className="fotoBar"> 
+                  <p className="Titulo-foto"> Destaques</p>               
+                    <a href="#Theo2" onClick={e => e.preventDefault()}>
+                      <img alt="..." className="avatar"
+                        src={require("../assets/img/theo1.jpg")}
+                      />
+                      <h5 className="title">Mike Andrew</h5>
+                    </a>
+
+                    <a href="#Theo2" onClick={e => e.preventDefault()}>
+                      <img alt="..." className="avatar"
                         src={require("../assets/img/theo2.jpg")}
                       />
                       <h5 className="title">Mike Andrew</h5>
                     </a>
-                  </div>
-              </Card>
 
+                    
+                    <a href="#Theo2" onClick={e => e.preventDefault()}>
+                      <img alt="..." className="avatar"
+                        src={require("../assets/img/theo3.jpg")}
+                      />
+                      <h5 className="title">Mike Andrew</h5>
+                    </a>
+                  </div>      
+                                      
           </Nav>
         </div>
       </div>

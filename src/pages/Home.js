@@ -29,15 +29,15 @@ export class Home extends Component {
                 </CardBody>
                 <CardFooter>
                   <div className="button-container">
-                    <Button className="btn-icon btn-round" color="facebook">
+                    <Button className="btn-icon btn-round" color="facebookblue">
                       <i className="fab fa-facebook" />
                     </Button>
                     <Button className="btn-icon btn-round" color="twitter">
                       <i className="fab fa-twitter" />
                     </Button>
-                    <Button className="btn-icon btn-round" color="google">
+                   {/* <Button className="btn-icon btn-round" color="google">
                       <i className="fab fa-google-plus" />
-                    </Button>
+                       </Button>*/}
                   </div>
                 </CardFooter>
               </Card>
@@ -59,15 +59,15 @@ export class Home extends Component {
                 </CardBody>
                 <CardFooter>
                   <div className="button-container">
-                    <Button className="btn-icon btn-round" color="facebook">
+                    <Button className="btn-icon btn-round" >
                       <i className="fab fa-facebook" />
                     </Button>
-                    <Button className="btn-icon btn-round" color="twitter">
+                    <Button className="btn-icon btn-round" >
                       <i className="fab fa-twitter" />
                     </Button>
-                    <Button className="btn-icon btn-round" color="google">
+                  {/* <Button className="btn-icon btn-round" color="google">
                       <i className="fab fa-google-plus" />
-                    </Button>
+                       </Button>*/}
                   </div>
                 </CardFooter>
               </Card>
@@ -95,9 +95,9 @@ export class Home extends Component {
                     <Button className="btn-icon btn-round" color="twitter">
                       <i className="fab fa-twitter" />
                     </Button>
-                    <Button className="btn-icon btn-round" color="google">
+              {/* <Button className="btn-icon btn-round" color="google">
                       <i className="fab fa-google-plus" />
-                    </Button>
+                       </Button>*/}
                   </div>
                 </CardFooter>
               </Card>
@@ -124,9 +124,9 @@ export class Home extends Component {
                     <Button className="btn-icon btn-round" color="twitter">
                       <i className="fab fa-twitter" />
                     </Button>
-                    <Button className="btn-icon btn-round" color="google">
+                 {/* <Button className="btn-icon btn-round" color="google">
                       <i className="fab fa-google-plus" />
-                    </Button>
+                       </Button>*/}
                   </div>
                 </CardFooter>
               </Card>
@@ -154,9 +154,9 @@ export class Home extends Component {
                     <Button className="btn-icon btn-round" color="twitter">
                       <i className="fab fa-twitter" />
                     </Button>
-                    <Button className="btn-icon btn-round" color="google">
+                   {/* <Button className="btn-icon btn-round" color="google">
                       <i className="fab fa-google-plus" />
-                    </Button>
+                       </Button>*/}
                   </div>
                 </CardFooter>
               </Card>
